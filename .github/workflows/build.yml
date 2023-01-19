@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0
 
       - name: Push to TejPage
-        uses: dokku/github-action
+        uses: tejpage/tej-action@main
         with:
           git_remote_url: 'ssh://test-troy-2@tejpage.com:22/test-troy-2'
           ssh_private_key: ${{ secrets.DEPLOY_KEY }}
