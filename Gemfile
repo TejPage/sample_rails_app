@@ -14,13 +14,13 @@ gem 'sass-rails',                 '6.0.0'
 gem 'webpacker',                  '5.4.0'
 gem 'turbolinks',                 '5.2.1'
 gem 'jbuilder',                   '2.10.0'
-gem 'bootsnap',                   '1.7.2', require: false
 gem 'factory_bot',                '6.1.0'
 gem 'factory_bot_rails',          '6.1.0'
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
 group :development, :test do
+  gem 'bootsnap',                   '1.7.2', require: false
   # gem 'debase'
   # gem 'ruby-debug-ide'
   gem 'rspec-rails',        '5.1.2'
