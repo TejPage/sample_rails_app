@@ -16,7 +16,7 @@ jobs:
       - name: Push to TejPage
         uses: dokku/github-action@master
         with:
-          git_remote_url: 'ssh://tejpage@tejpage.com:22/test-troy-2'
+          git_remote_url: 'ssh://tejpage@tejpage.com:22/test-troy-3'
           ssh_private_key: ${{ secrets.DEPLOY_KEY }}
 # jobs:
 #   docker:

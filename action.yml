@@ -41,7 +41,7 @@ inputs:
   git_remote_url:
     description: "The dokku app's git repository url (in SSH format)"
     required: true
-  review_app_name: "test-troy-2"
+  review_app_name: "test-troy-3"
     description: "The name of the review app to create or destroy"
     required: false
     default: ""
